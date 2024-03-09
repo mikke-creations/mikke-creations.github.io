@@ -34,15 +34,15 @@ setTimeout(function () {
 
 //Botones
 document.getElementById("emailBtn").addEventListener("click", function () {
-  window.location.href = "mailto:zertumez.art@gmail.com";
+  window.location.href = "mailto:mikke.creations@gmail.com";
 });
 
-document.getElementById("instagramBtn").addEventListener("click", function () {
-  window.open("https://www.instagram.com/zertumez/");
-});
-document.getElementById("twitterBtn").addEventListener("click", function () {
-  window.open("https://twitter.com/zertumez");
-});
+// document.getElementById("instagramBtn").addEventListener("click", function () {
+//   window.open("https://www.instagram.com/zertumez/");
+// });
+// document.getElementById("twitterBtn").addEventListener("click", function () {
+//   window.open("https://twitter.com/zertumez");
+// });
 document.getElementById("artstationBtn").addEventListener("click", function () {
   window.open("https://zertumez.artstation.com/");
 });
@@ -50,10 +50,10 @@ document.getElementById("behanceBtn").addEventListener("click", function () {
   window.open("https://behance.net/zertumez");
 });
 document.getElementById("linkedinBtn").addEventListener("click", function () {
-  window.open("https://www.linkedin.com/in/zertumez/");
+  window.open("https://www.linkedin.com/in/mikkecreations/");
 });
 document.getElementById("githubBtn").addEventListener("click", function () {
-  window.open("https://github.com/Zertumez");
+  window.open("https://github.com/mikke-creations");
 });
 
 const carousel = document.querySelector(".carousel"),
